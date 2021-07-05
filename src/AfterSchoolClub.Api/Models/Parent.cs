@@ -3,12 +3,12 @@ using System.Collections.Generic;
 
 namespace AfterSchoolClub.Api.Models
 {
-    public class Child
+    public class Parent
     {
-        public Guid ChildId { get; set; }
+        public Guid ParentId { get; set; }
         public string Name { get; set; }
-        public List<Parent> Parents { get; private set; } = new();
-        public Child()
+        public List<Child> Children { get; private set; } = new();
+        public Parent()
         {
 
         }

@@ -1,4 +1,8 @@
 {
+  "projects": null,
+  "path": "C:\\Projects\\AfterSchoolClub",
+  "solutionName": null,
+  "rootNamespace": null,
   "domainNamespace": "AfterSchoolClub.Api",
   "applicationNamespace": "AfterSchoolClub.Api",
   "infrastructureNamespace": "AfterSchoolClub.Api",
@@ -7,10 +11,24 @@
   "applicationDirectory": "C:\\Projects\\AfterSchoolClub\\src\\AfterSchoolClub.Api",
   "infrastructureDirectory": "C:\\Projects\\AfterSchoolClub\\src\\AfterSchoolClub.Api",
   "apiDirectory": "C:\\Projects\\AfterSchoolClub\\src\\AfterSchoolClub.Api",
-  "path": "C:\\Projects\\AfterSchoolClub",
-  "dbContext": "AfterSchoolClubDbContext",
+  "appDirectories": null,
+  "buildingBlocksCoreNamespace": "BuildingBlocks.Core",
+  "buildingBlocksEventStoreNamespace": "BuildingBlocks.EventStore",
+  "store": null,
+  "namespace": null,
+  "domain": null,
+  "core": null,
+  "api": null,
+  "entityIdDataType": null,
   "sourceFolder": "src",
+  "testFolder": null,
+  "dbContext": "AfterSchoolClubDbContext",
+  "eventSourcing": false,
   "resources": [
-    "Child"
+    "Child",
+    "Parent",
+    "Event",
+    "Location",
+    "DigitalAsset"
   ]
 }

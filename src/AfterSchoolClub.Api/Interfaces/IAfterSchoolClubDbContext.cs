@@ -8,6 +8,10 @@ namespace AfterSchoolClub.Api.Interfaces
     public interface IAfterSchoolClubDbContext
     {
         DbSet<Child> Children { get; }
+        DbSet<Parent> Parents { get; }
+        DbSet<Event> Events { get; }
+        DbSet<Location> Locations { get; }
+        DbSet<DigitalAsset> DigitalAssets { get; }
         Task<int> SaveChangesAsync(CancellationToken cancellationToken);
         
     }
