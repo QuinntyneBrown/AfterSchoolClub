@@ -1,0 +1,16 @@
+{
+  "domainNamespace": "AfterSchoolClub.Api",
+  "applicationNamespace": "AfterSchoolClub.Api",
+  "infrastructureNamespace": "AfterSchoolClub.Api",
+  "apiNamespace": "AfterSchoolClub.Api",
+  "domainDirectory": "C:\\Projects\\AfterSchoolClub\\src\\AfterSchoolClub.Api",
+  "applicationDirectory": "C:\\Projects\\AfterSchoolClub\\src\\AfterSchoolClub.Api",
+  "infrastructureDirectory": "C:\\Projects\\AfterSchoolClub\\src\\AfterSchoolClub.Api",
+  "apiDirectory": "C:\\Projects\\AfterSchoolClub\\src\\AfterSchoolClub.Api",
+  "path": "C:\\Projects\\AfterSchoolClub",
+  "dbContext": "AfterSchoolClubDbContext",
+  "sourceFolder": "src",
+  "resources": [
+    "Child"
+  ]
+}
